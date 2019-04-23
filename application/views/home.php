@@ -20,7 +20,7 @@
 <body style="padding-top: 56px;">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info  fixed-top">
     <div class="container">
       <a class="navbar-brand" href="<?= base_url();?>">
         <img src="<?= base_url();?>icon.png" style="width: 35px; height: 35px;">
@@ -106,7 +106,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
             <div class="card-body">
-              <a href="#" class="btn btn-info">Belanja</a>
+              <a href="<?= base_url(); ?>" class="btn btn-info">Belanja</a>
             </div>
           </div>
         </div>
